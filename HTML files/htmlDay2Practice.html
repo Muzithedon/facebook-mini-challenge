@@ -1,0 +1,79 @@
+//forms practice
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="styles.css">
+
+<body> /* selector{property: value } css style rule */
+    <header>
+        <h1>Forms</h1>
+        <hr>
+        <header>
+            <form action="./form.html">
+                <label for="first Name">First Name: </label>
+                <input type="text" name="firstName" placeholder="First name">
+                <label for="email">Email</label>
+                <input type="email" name="email" placeholder="Email">
+                <label for="password">password</label>
+                <input type="password" name="password" placeholder="Password">
+                <input type="url" name="url" placeholder="url">
+                <br>
+                <br>
+                <fieldset>
+                    <legend>How you like Coffee</legend>
+                    <label for="milk">Milk</label>
+                    <input type="checkbox" name="Milk" checked>
+                    <label for="sugar">Sugar</label>
+                    <input type="checkbox" name="sugar">
+                    <label for="cream">Cream</label>
+                    <input type="checkbox" name="cream">
+                    <label for="sweetener">Sweetener</label>
+                    <input type="checkbox" name="sweetener">
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend>Coffee size</legend>
+                    <label for="grande">Grande</label>
+                    <input type="radio" name="size" checked>
+                    <label for="regular">Regular</label>
+                    <input type="radio" name="size">
+                    <label for="small">Small</label>
+                    <input type="radio" name="size">
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend>Size 2</legend>
+                    <select name="size2">
+                        <option disabled selected>Please choose a size</option>
+                        <option value="Grande">Grande</option>
+                        <option value="Regular">Regular</option>
+                        <option value="Small">Small</option>
+                    </select>
+                </fieldset>
+                <br>
+                <input type="date" name="">
+                <br>
+                <br>
+                <input type="range" name="">
+                <br>
+                <br>
+                <label for="telNum">Mobile number</label>
+                <br>
+                <input type="tel" name="" pattern="07+[0-9]{9}">
+                <br>
+                <br>
+                <input type="color" name="" id="">
+                <br>
+                <br>
+                <input type="reset" value="reset">
+                <input type="submit" value="submit">
+            </form>
+</body>
+
+</html>

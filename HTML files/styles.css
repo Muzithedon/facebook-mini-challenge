@@ -1,0 +1,13 @@
+/* If display has the value none,
+user agents must ignore position and float. In this case,
+the element generates no box. Otherwise,
+position has the value absolute or fixed,
+display is set to block and float is set to none. The position of the box will be determined by the top,
+right,
+bottom and left properties and the box's containing block.
+ Otherwise,
+if float has a value other than none,
+display is set to block and the box is floated. Otherwise,
+the remaining display properties apply as specified. */
+
+/* where header is a block like the css-layout website. 
