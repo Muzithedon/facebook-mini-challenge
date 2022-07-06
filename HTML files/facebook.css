@@ -1,9 +1,23 @@
 header {
+    font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(59, 89, 152);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+input {
+    border-radius: 4px;
+}
+
+p {
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 {
     color: white;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header>button {
@@ -16,9 +30,34 @@ header>input {
 
 body {
     background-color: rgb(247, 247, 247);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+    width: 95%;
 }
 
 .section1 {
 
     display: flexbox;
+    float: left;
+    width: 50%;
+    grid-column: span 2;
+
+}
+
+.section2 {
+
+    display: flexbox;
+    float: left;
+    width: 50%;
+    gap: 1rem;
+}
+
+.signupb {
+
+    background-color: rgb(38, 198, 26);
+    color: white;
+    border-radius: 5px;
+    padding: 5px 30px 5px 30px;
 }
